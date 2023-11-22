@@ -13,6 +13,8 @@
 		9ED565372B0C1E0B00572449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED565352B0C1E0B00572449 /* Main.storyboard */; };
 		9ED565392B0C1E0C00572449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED565382B0C1E0C00572449 /* Assets.xcassets */; };
 		9ED5653C2B0C1E0C00572449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED5653A2B0C1E0C00572449 /* LaunchScreen.storyboard */; };
+		9ED565442B0E552400572449 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED565432B0E552400572449 /* EntryViewController.swift */; };
+		9ED565462B0E557C00572449 /* ViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED565452B0E557C00572449 /* ViewViewController.swift */; };
 		A1047D1B6D9F3566B5C499C6 /* Pods_HaithamToDoListApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176BD2CD0CFAD5B6A455ED1D /* Pods_HaithamToDoListApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		9ED565382B0C1E0C00572449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ED5653B2B0C1E0C00572449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ED5653D2B0C1E0C00572449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED565432B0E552400572449 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		9ED565452B0E557C00572449 /* ViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				9ED565382B0C1E0C00572449 /* Assets.xcassets */,
 				9ED5653A2B0C1E0C00572449 /* LaunchScreen.storyboard */,
 				9ED5653D2B0C1E0C00572449 /* Info.plist */,
+				9ED565432B0E552400572449 /* EntryViewController.swift */,
+				9ED565452B0E557C00572449 /* ViewViewController.swift */,
 			);
 			path = HaithamToDoListApp;
 			sourceTree = "<group>";
@@ -207,6 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ED565342B0C1E0B00572449 /* ViewController.swift in Sources */,
+				9ED565442B0E552400572449 /* EntryViewController.swift in Sources */,
+				9ED565462B0E557C00572449 /* ViewViewController.swift in Sources */,
 				9ED565302B0C1E0B00572449 /* AppDelegate.swift in Sources */,
 				9ED565322B0C1E0B00572449 /* SceneDelegate.swift in Sources */,
 			);
